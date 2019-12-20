@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(117deg, #ddc9d4, #ccc1cf);
+    background-size: 400% 400%;
+    
+    -webkit-animation: AnimationName 0s ease infinite;
+    -moz-animation: AnimationName 0s ease infinite;
+    animation: AnimationName 0s ease infinite;
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 97%}
+        50%{background-position:100% 4%}
+        100%{background-position:0% 97%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 97%}
+        50%{background-position:100% 4%}
+        100%{background-position:0% 97%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 97%}
+        50%{background-position:100% 4%}
+        100%{background-position:0% 97%}
+    }
+}
+nav, footer{
+    background-color: #011638 !important;
+}
+a.navbar-brand{
+ color : pink;
+ font-family: 'Playfair Display', serif;
+ font-style: italic;
+}
+main{
+    min-height: 700px;
+}
+.carousel-item{
+    width: 800px;
+    height: 400px;
+}
+img{
+    width: 100%;
+}
+a{
+    color:inherit;
+}
